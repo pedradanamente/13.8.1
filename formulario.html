@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Formulário de contato</title>
+</head>
+<body>
+<form action="resposta.html">
+Nome: <input type="text" name="nome" size="50" maxlength="80"><br><br>
+Senha: <input type="password" name="senha" size="20" maxlengh="8">
+<br><br>
+Cidade: <select name="cidade">
+             <option value="Porto Alegre">Porto Alegre</option>
+             <option value="Canoas">Canoas</option>
+             <option value="Caxias">Caxias</option>
+             <option value="Passo Fundo">Passo Fundo</option>
+             <option value="Viamão">Viamão</option>
+             <option value="Alvorada">Alvorada</option>
+</select>
+<br><br>
+Estado Civil: <input type="radio" name="estado civil" value="solteiro">Solteiro
+                  <input type="radio" name="estado civil" value="casado">Casado
+                  <input type="radio" name="estado civil" value="viúvo">Viúvo
+                  <input type="radio" name="estado civil" value="separado">Separado
+                  <input type="radio" name="estado civil" value="outros">Outros
+<br><br>
+Turno disponível: <input type="checkbox" name="turno" value="manhã">Manhã
+                          <input type="checkbox" name="turno" value="tarde">Tarde
+                          <input type="checkbox" name="turno" value="noite">Noite
+            <input type="checkbox" name="turno" value="madrugada">Madrugada
+<br><br>
+Deixe seu recado:<br>
+<textarea cols="40" rows="8">
+</textarea>
+<br>
+<input type="submit" value="Enviar Formulário">
+<input type="reset" value="Apagar Formulário">
+
+
+
+</form>
+</body>
+</html>
